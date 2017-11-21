@@ -9,6 +9,7 @@ A simple budget tracking app built for android
 - [ ] Graphical breakdowns
 - [ ] Persistent data
 
+## Version History
 Version | Release Date
 ------------ | -------------
 0.1 | 
