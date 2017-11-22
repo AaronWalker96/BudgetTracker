@@ -2,7 +2,7 @@
 A simple budget tracking app built for android
 
 ## Features in current release:
-  * N/A
+- [X] Enter current expendatures
 
 ## Features planned for future release:
 - [ ] Notifications
@@ -10,6 +10,6 @@ A simple budget tracking app built for android
 - [ ] Persistent data
 
 ## Version History
-Version | Release Date
------------- | -------------
-0.1 | 
+Version | Release Date | Notes
+------------ | ------------- | -------------
+0.1 | 22/11/2017 | Started work on initial screen
