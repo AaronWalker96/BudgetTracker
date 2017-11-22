@@ -7,135 +7,19 @@
     android:padding="15dp"
     tools:context="comaaronwalker96budgettracker.httpsgithub.budgettracker.MainActivity">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
+
+    <FrameLayout
+        android:layout_width="338dp"
+        android:layout_height="465dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/btnAddExpense"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="2"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
-
-            <TextView
-                android:id="@+id/lableRent"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="0.5"
-                android:scaleType="fitCenter"
-                android:text="Rent:"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="182dp" />
-
-            <EditText
-                android:id="@+id/txtRent"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1.5"
-                android:ems="10"
-                android:inputType="number"
-                android:scaleType="fitCenter"
-                tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="182dp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
-
-            <TextView
-                android:id="@+id/lableTotalBudget"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:text="Utilities:"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="16dp" />
-
-            <EditText
-                android:id="@+id/txtTotalBudget"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:ems="10"
-                android:inputType="number"
-                tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="16dp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
-
-            <TextView
-                android:id="@+id/lableFood"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:text="Food:"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="110dp" />
-
-            <EditText
-                android:id="@+id/txtFood"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:ems="10"
-                android:inputType="number"
-                tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="110dp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
-
-            <TextView
-                android:id="@+id/lableWater"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:elevation="1dp"
-                android:text="Leasure:"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="252dp" />
-
-            <EditText
-                android:id="@+id/txtWater"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:ems="10"
-                android:inputType="number"
-                tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="252dp" />
-        </LinearLayout>
-
-    </LinearLayout>
-
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:onClick="addExpenseBtn"
+            android:text="Add Expenses" />
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>
