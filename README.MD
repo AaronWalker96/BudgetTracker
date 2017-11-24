@@ -18,7 +18,7 @@ A simple budget tracking app built for android
 - [ ] Expendatures calculation does not work correctly and has been dissabled on this verion of the code
 
 ## Version History
-Version | Release Date | Notes
------------- | ------------- | -------------
-0.1 | 22/11/2017 | Initial development stage
+Version | Start Date | Release Date | Notes
+------------ | ------------- | ------------- | -------------
+0.1 | 22/11/2017 |  | Initial development stage
 
