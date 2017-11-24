@@ -3,8 +3,8 @@ A simple budget tracking app built for android
 
 ## Features in current release:
 - [X] Added a home screen
-- [X] Added a expenses screen
-- [X] Added a income screen
+- [X] Added an expenses screen
+- [X] Added an income screen
 - [X] Enter current expendatures
 
 ## Features planned for future release:
