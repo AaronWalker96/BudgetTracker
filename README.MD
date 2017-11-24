@@ -2,8 +2,10 @@
 A simple budget tracking app built for android
 
 ## Features in current release:
-- [X] Enter current expendatures
 - [X] Added a home screen
+- [X] Added a expenses screen
+- [X] Added a income screen
+- [X] Enter current expendatures
 
 ## Features planned for future release:
 - [ ] Calculate monthly budget
@@ -11,6 +13,9 @@ A simple budget tracking app built for android
 - [ ] Graphical breakdowns
 - [ ] Persistent data
 - [ ] Material design guidlines
+
+## Known Bugs
+- [ ] Expendatures calculation does not work correctly and has been dissabled on this verion of the code
 
 ## Version History
 Version | Release Date | Notes
