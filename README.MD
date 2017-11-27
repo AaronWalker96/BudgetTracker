@@ -10,6 +10,7 @@ A simple budget tracking app built for android
 
 ## Features planned for future release:
 - [ ] Calculate total income - expendatures
+- [ ] SQLite database to store and save user entered data
 - [ ] Graphical breakdowns
 - [ ] Persistent data
 - [ ] Material design guidlines
