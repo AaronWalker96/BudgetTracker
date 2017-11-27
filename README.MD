@@ -7,9 +7,10 @@ A simple budget tracking app built for android
 - [X] Added an income screen
 - [X] Enter current expendatures
 - [X] Enter current income
+- [X] Calculate total income / expendatures
 
 ## Features planned for future release:
-- [ ] Calculate total income - expendatures
+- [ ] Calculate net income
 - [ ] SQLite database to store and save user entered data
 - [ ] Graphical breakdowns
 - [ ] Persistent data
